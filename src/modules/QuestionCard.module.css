@@ -21,7 +21,7 @@
 .showAnswerBtn,
 .nextQuestionBtn {
     background-color: #511737; /* Hot pink button */
-    color: white;
+    color: #bfa1a1;
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
@@ -42,11 +42,12 @@
     border-radius: 25px;
     margin: 5px;
     width: 60%;
+    color: #e1a9a9;
     transition: background-color 0.3s;
 }
 
 .optionButton:hover {
-    background-color: rgba(255, 105, 180, 0.37);
+    background-color: rgba(110, 29, 70, 0.37);
 }
 
 .selected {
