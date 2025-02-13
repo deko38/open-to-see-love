@@ -1,0 +1,168 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffebef; /* Light pink background */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+
+}
+.input{
+    display: flex;
+    gap: 2rem;
+}
+
+/* Input container styles */
+.input-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Header styles */
+.input-container h1 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #5c0e22;
+    font-family: 'Lobster', cursive;
+}
+
+/* Input field styles */
+/*.input input {*/
+/*    width: 600px;*/
+/*    padding: 10px;*/
+/*    margin: 10px 0;*/
+/*    border: 2px solid #ff577f;*/
+/*    border-radius: 5px;*/
+/*    font-size: 1rem;*/
+/*    text-align: center;*/
+/*    transition: all 0.3s ease-in-out;*/
+/*}*/
+
+/* Input field focus effects */
+.input input:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.5);
+}
+
+/* Placeholder text color */
+.input input::placeholder {
+    color: #ff7e5f;
+    font-style: italic;
+}
+
+/* Input field on hover */
+.input input:hover {
+    background-color: #fffbf3;
+    border-color: #ff577f;
+}
+
+/* Additional styling for the container */
+.app-container {
+    background-image: url('https://example.com/heart-background.png');
+    background-size: cover;
+    background-position: center;
+}
+/* Start button styles */
+.start-button {
+    background-color: #5e1526;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-family: 'Lobster', cursive;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Hover effect */
+.start-button:hover {
+    background-color: #7e2036;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus effect */
+.start-button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 126, 95, 0.7);
+}
+
+/* Disabled state */
+.start-button:disabled {
+    background-color: #e2a3b9;
+    cursor: not-allowed;
+}
+
+
+.finished-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(120, 71, 71, 0.63);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgba(120, 71, 71, 0.63);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.finished-container h1 {
+    font-size: 2em;
+    color: #ffe8f6;
+    margin-bottom: 20px;
+}
+
+.finished-container p {
+    font-size: 1.2em;
+    color: #ece5e5;
+    margin-bottom: 20px;
+}
+
+
+
+/*end button*/
+.end-button {
+    background-color: #2c020d;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-family: 'Lobster', cursive;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Hover effect */
+.end-button:hover {
+    background-color: #220e13;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Focus effect */
+.end-button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(19, 3, 19, 0.7);
+}
+
+/* Disabled state */
+.end-button:disabled {
+    background-color: #e2a3b9;
+    cursor: not-allowed;
+}
