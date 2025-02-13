@@ -115,7 +115,7 @@ const App = () => {
                 </div>
             ) : quizFinished ? (
                 <div className={classes['finished-container']}>
-                    <h1>და შენ 14 თებერვლას გააატარებ...</h1>
+                    <h1>და შენ 14 თებერვალს გააატარებ...</h1>
                     <p>{calculateResult()}</p>
                     <button onClick={handleBackToQuiz} className={classes['end-button']}>
                         Back to Quiz

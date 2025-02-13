@@ -166,3 +166,34 @@
     background-color: #e2a3b9;
     cursor: not-allowed;
 }
+/* Responsive styles */
+
+@media (max-width: 768px) {
+    .app-container {
+        padding: 15px;
+    }
+
+    .input-container h1, .finished-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .start-button, .end-button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .app-container {
+        padding: 10px;
+    }
+
+    .input-container h1, .finished-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .start-button, .end-button {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+}
